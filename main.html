@@ -8,6 +8,63 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation with ARIA role -->
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About</a></li>
+            <li role="listitem"><a href="#skills">Skills</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Profile Image -->
+        <img src="your-image.jpg" alt="Profile picture of [Your Name]" role="img">
+
+        <!-- Name as Heading -->
+        <h1 role="heading">Your Name</h1>
+
+        <!-- Brief Description -->
+        <section id="about">
+            <p>Hello! I'm a passionate web developer skilled in React, Java, and MongoDB.</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul role="list">
+                <li role="listitem">React.js</li>
+                <li role="listitem">Spring Boot</li>
+                <li role="listitem">MongoDB</li>
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul role="list">
+                <li role="listitem">Portfolio Website</li>
+                <li role="listitem">E-commerce Platform</li>
+                <li role="listitem">Task Management App</li>
+            </ul>
+        </section>
+    </main>
+
+</body>
+</html>
+
+
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
